@@ -30,7 +30,6 @@ import { ImageIdOutputFinder } from '@aws-accelerator/common-outputs/src/ami-out
 import { IamRoleOutputFinder } from '@aws-accelerator/common-outputs/src/iam-role';
 import { Context } from '../../utils/context';
 import { CfnLoadBalancerOutput } from '../alb/outputs';
-import { AesBucketOutput } from '../defaults';
 
 export interface RSysLogStep1Props {
   accountStacks: AccountStacks;
